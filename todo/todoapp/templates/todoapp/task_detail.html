@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ task.title }}{% endblock %}
+
+{% block content %}
+    <div class="task-detail">
+        <h1 class="task-title">{{ task.title }}</h1>
+        <p class="task-description">{{ task.description }}</p>
+        <p class="task-due-date"><strong>Due Date:</strong> {{ task.due_date }}</p>
+        <p class="task-status"><strong>Status:</strong> {% if task.completed %}<span class="status-completed">Completed</span>{% else %}<span class="status-not-completed">Not Completed</span>{% endif %}</p>
+        <a href="{% url 'task_list' %}" class="button">Back to Task List</a>
+    </div>
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - My Django App{% endblock %}
+
+{% block content %}
+    <h1>Welcome to the Home Page</h1>
+    <p>This is the home page. Navigate to the ToDo App to manage your tasks.</p>
+    <a href="{% url 'task_list' %}" class="button">Go to ToDo App</a>
+{% endblock %}

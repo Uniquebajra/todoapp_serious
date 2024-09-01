@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}About Us - My Django App{% endblock %}
+
+{% block content %}
+    <h1>About Us</h1>
+    <p>This is a todo app where you can create, edit, and delete tasks. You can also check if tasks are completed.</p>
+    <p>Our goal is to help you stay organized and manage your tasks efficiently. If you have any feedback or suggestions, feel free to reach out!</p>
+    <a href="{% url 'task_list' %}" class="button">Back to Task List</a>
+{% endblock %}
