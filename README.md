@@ -16,7 +16,7 @@ Installation
    
 
 2. Navigate to the project directory:
-   "cd todo-app"
+   'cd todo-app'
    
    
 3. Create and activate a virtual environment:
