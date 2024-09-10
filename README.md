@@ -16,24 +16,24 @@ Installation
    
 
 2. Navigate to the project directory:
-   cd todo-app
+   "cd todo-app"
    
    
 3. Create and activate a virtual environment:
-   python -m venv env
-   source env/bin/activate  # On Windows use `env\Scripts\activate`
+   "python -m venv env"
+   "source env/bin/activate"  # On Windows use `env\Scripts\activate`
    
 
 4. Install the required packages:
-   pip install -r requirements.txt
+   "pip install -r requirements.txt"
 
    
 5. Run migrations:
-   python manage.py migrate
+   "python manage.py migrate"
 
 
 6. Start the development server:
-   python manage.py runserver
+   "python manage.py runserver"
 
 Usage
 Visit http://127.0.0.1:8000 in your browser to start using the ToDo App.
